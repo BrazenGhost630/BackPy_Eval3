@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ms-backpy-products:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ms-backpy-products
